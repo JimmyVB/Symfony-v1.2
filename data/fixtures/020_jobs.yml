@@ -20,8 +20,8 @@ JobeetJob:
     token:        job_sensio_labs
     email:        job@example.com
     expires_at:   2010-10-10
-    
-job_extreme_sensio:
+
+  job_extreme_sensio:
     category_id:  design
     type:         part-time
     company:      Extreme Sensio

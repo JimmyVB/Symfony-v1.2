@@ -14,7 +14,7 @@ propel:
     position:     { type: varchar(255), required:true }
     location:     { type: varchar(255), required:true }
     description:  { type: longvarchar, required:true }
-    how_to_play:  { type: longvarchar, required:true }
+    how_to_apply:  { type: longvarchar, required:true }
     token:        { type: varchar(255), required: true, index: unique }
     is_public:    { type: boolean, required: true, default: 1 }
     is_activated: { type: boolean, required: true, default: 0 }

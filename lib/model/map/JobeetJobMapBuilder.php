@@ -84,7 +84,7 @@ class JobeetJobMapBuilder implements MapBuilder {
 
 		$tMap->addColumn('DESCRIPTION', 'Description', 'LONGVARCHAR', true, null);
 
-		$tMap->addColumn('HOW_TO_PLAY', 'HowToPlay', 'LONGVARCHAR', true, null);
+		$tMap->addColumn('HOW_TO_APPLY', 'HowToApply', 'LONGVARCHAR', true, null);
 
 		$tMap->addColumn('TOKEN', 'Token', 'VARCHAR', true, 255);
 
